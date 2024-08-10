@@ -1,0 +1,121 @@
+HERE'S THE LIST OF TOP 20 CODING ALGORITHMS USED WIDELY
+
+1)Binary Search
+
+Purpose: Efficiently find the position of a target value within a sorted array.
+Complexity: O(log n)
+Key Points: Works by repeatedly dividing the search interval in half.
+
+2)Breadth-First Search (BFS)
+
+Purpose: Traverses a graph level by level, exploring neighbors before moving on to their children.
+Complexity: O(V + E) where V is vertices and E is edges.
+Key Points: Utilizes a queue; good for finding the shortest path in an unweighted graph.
+
+3)Depth-First Search (DFS)
+
+Purpose: Explores as far as possible along a branch before backtracking.
+Complexity: O(V + E)
+Key Points: Utilizes a stack (often via recursion); useful for pathfinding, detecting cycles.
+
+4)Dijkstra's Algorithm
+
+Purpose: Finds the shortest path from a source node to all other nodes in a weighted graph.
+Complexity: O(V^2) or O(E + V log V) with a priority queue.
+Key Points: Non-negative weights; uses a priority queue.
+
+5)Merge Sort
+
+Purpose: Efficient, stable, comparison-based sorting algorithm.
+Complexity: O(n log n)
+Key Points: Divide and conquer; splits the array in halves, sorts, and merges.
+
+6)Quick Sort
+
+Purpose: Efficient sorting algorithm that uses divide and conquer.
+Complexity: O(n log n) average, O(n^2) worst-case.
+Key Points: Uses a pivot element; often faster in practice than merge sort.
+
+7)Dynamic Programming (DP)
+
+Purpose: Solves problems by breaking them down into simpler subproblems, storing the results.
+Complexity: Varies; common examples include O(n) or O(n^2).
+Key Points: Key techniques include memoization and tabulation; used in problems like knapsack, longest common subsequence.
+
+8)Floyd-Warshall Algorithm
+
+Purpose: Finds shortest paths between all pairs of vertices in a weighted graph.
+Complexity: O(V^3)
+Key Points: Dynamic programming approach; handles negative weights.
+
+9)Kruskal's Algorithm
+
+Purpose: Finds the Minimum Spanning Tree (MST) for a graph.
+Complexity: O(E log E)
+Key Points: Greedy approach; sorts edges and adds to the MST using a union-find structure.
+
+10)Prim's Algorithm
+
+Purpose: Finds the Minimum Spanning Tree (MST) for a graph.
+Complexity: O(E log V) with a priority queue.
+Key Points: Greedy approach; grows the MST by adding the lowest-weight edge.
+
+11)Kadane’s Algorithm
+
+Purpose: Finds the maximum sum subarray within a one-dimensional array of numbers.
+Complexity: O(n)
+Key Points: Dynamic programming approach; tracks current and maximum sums.
+
+12)Union-Find (Disjoint Set)
+
+Purpose: Efficiently manages a partition of a set into disjoint (non-overlapping) subsets.
+Complexity: O(α(n)) per operation, where α is the inverse Ackermann function.
+Key Points: Supports union and find operations; often used in Kruskal's algorithm.
+
+13)Topological Sort
+
+Purpose: Orders vertices in a Directed Acyclic Graph (DAG) such that for every directed edge UV, vertex U comes before V.
+Complexity: O(V + E)
+Key Points: Can be done via DFS; used in scheduling tasks, resolving dependencies.
+
+14)Heap Sort
+
+Purpose: Efficient comparison-based sorting algorithm using a heap data structure.
+Complexity: O(n log n)
+Key Points: In-place, not stable; heapifies the array and repeatedly extracts the max/min.
+
+15)Sliding Window
+
+Purpose: Efficiently solves problems involving subarrays or substrings by maintaining a window that slides over the array/string.
+Complexity: O(n)
+Key Points: Used in problems like finding the maximum sum subarray of size k.
+
+16)Two-Pointer Technique
+
+Purpose: Efficiently solves problems involving pairs in a sorted array by using two pointers.
+Complexity: O(n)
+Key Points: Often used in problems like pair sum, reversing a string/array.
+
+17)Bellman-Ford Algorithm
+
+Purpose: Finds the shortest path from a source vertex to all vertices in a weighted graph.
+Complexity: O(VE)
+Key Points: Handles negative weights and can detect negative cycles.
+
+18)Backtracking
+
+Purpose: Generates all possible solutions for problems like n-queens, Sudoku, permutations.
+Complexity: O(2^n) for n-queens problem.
+Key Points: Tries out all possibilities, abandoning paths that fail to satisfy conditions.
+
+19)Segment Tree
+
+Purpose: Efficiently performs range queries and updates on an array.
+Complexity: O(log n) for both queries and updates.
+Key Points: Used in scenarios like range sum queries, range minimum queries.
+
+20)Trie (Prefix Tree)
+
+Purpose: Efficiently stores and retrieves keys in a dataset of strings, allowing for fast prefix searches.
+Complexity: O(m) where m is the length of the key.
+Key Points: Used in autocomplete systems, word games, spell checking.
